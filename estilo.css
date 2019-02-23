@@ -1,5 +1,55 @@
 @charset "UTF-8";
+*{padding:0; margin: 0;} /* Reset geral*/
+body{background-color: #444;}
+	
+.pagina{
+	width: 96%;
+	background-color: #EEE;
+	margin: 2% 2%;}
+	
+h1.titulo{
+	text-align: center;
+	background-color: #BBB;
+	margin-bottom: 16px;
+	padding: 10px;
+	font-family: Arial;}
+	
+h2.subtitulo{
+	font-family: Arial;
+	padding: 10px;}
 
-body{
-	background-color: pink;
+img.capa{
+	background-color: #CCC;
+	border: 3px solid #000;
+	border-left: 26px solid #000;
+	padding: 2px;
+	float: left;
+	margin: 0 0 10px 10px;}
+
+ol{
+	margin-left: 35px;
+	float: left;}
+
+ol li{
+	padding: 5px 0;
+	font-family: Times New Roman;
+	font-size: 18px;
+	border-bottom: solid #CCC 1px;}
+	
+/* Limpando FLOAT */
+#limpar{clear: both;}
+
+.membro{
+	margin-left: 6px;
+	float: left;
+	padding: 5px;}
+
+figure figcaption h1{
+	font-family: arial;
+	text-align: center;
+	font-size: 14px;}
+	
+figure img{
+	padding: 2px;
+	border: solid 2px #888;
 }
